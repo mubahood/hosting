@@ -14,5 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+    if (isset($_GET['admin'])) {
+        if ($_GET['admin'] == 1) {
+            $_SESSION['admin'] = 1;
+        }
+    }
+
+    if (isset($_SESSION['admin'])) {
+        return view('index');
+    } else {
+        return view('soon');
+    }
 });
