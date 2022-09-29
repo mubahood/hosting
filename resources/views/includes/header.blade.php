@@ -44,7 +44,7 @@
                         <a href="blog-details" title="Blog" class="iconews"><i
                                 class="ico-message-content f-18 w-icon"></i></a>
                         <a href="contact" title="Contact Us" class="iconews"><i class="ico-bell f-18 w-icon"></i></a>
-                        <a href="{{ url('/client') }}" title="Login" class="iconews"><i
+                        <a href="{{ url('/client/index.php?rp=/login') }}" title="Login" class="iconews"><i
                                 class="ico-shopping-cart f-18 w-icon"></i></a>
                         <a href="tel:1300-656-1046" class="iconews tabphone">+ (256) 783-204-665</a>
                     </div>
@@ -408,7 +408,7 @@
                                         aria-controls="offcanvasWithBackdrop">
                                 </div>
                                 <li class="menu-item">
-                                    <a class="pe-0 me-0" href="{{ url('/client') }}">
+                                    <a class="pe-0 me-0" href="{{ url('/client/index.php?rp=/login') }}">
                                         <div class="btn btn-default-yellow-fill question"><span
                                                 data-i18n="[html]header.login"></span> <i
                                                 class="fas fa-lock ps-1"></i> </div>
@@ -530,8 +530,8 @@
                                     <a class="dropdown-item menu-item" href="sliders">Content Sliders</a>
                                     <a class="dropdown-item menu-item" href="configurator">Configurator</a>
                                     <a class="dropdown-item menu-item" href="404">404 Error</a>
-                                    <a class="dropdown-item menu-item" href="{{ url('/client') }}">Register</a>
-                                    <a class="dropdown-item menu-item" href="{{ url('/client') }}">Client Area</a>
+                                    <a class="dropdown-item menu-item" href="{{ url('/client/index.php?rp=/login') }}">Register</a>
+                                    <a class="dropdown-item menu-item" href="{{ url('/client/index.php?rp=/login') }}">Client Area</a>
                                     <a class="dropdown-item menu-item" href="elements">Elements</a>
                                     <a class="dropdown-item menu-item" href="sections">Sections</a>
                                 </div>
@@ -553,7 +553,7 @@
                                 <p class="c-grey-light seccolor"><small>Email: antler@mail.com</small> </p>
                             </div>
                             <div>
-                                <a href="{{ url('/client') }}">
+                                <a href="{{ url('/client/index.php?rp=/login') }}">
                                     <div class="btn btn-default-yellow-fill mt-3">CLIENT AREA</div>
                                 </a>
                             </div>
