@@ -15,9 +15,7 @@
                                 <p data-aos="fade-up" data-aos-duration="1200">Enter the domain and tld you wish to use in
                                     the boxes below and click Lookup to see whether the domain is available for purchase.
                                 </p>
-                                <form class="domains-search"
-                                    action="#"
-                                    method="post">
+                                <form class="domains-search" action="#" method="post">
                                     <input type="text" class="inputdomainsearch special-input" name="domain"
                                         placeholder="eg.example.com" autocapitalize="none" />
                                     <span class="ds-content">
