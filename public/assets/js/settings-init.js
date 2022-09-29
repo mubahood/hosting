@@ -2,8 +2,8 @@
 "use strict"
 var optionSettings = {
     layout:"wide",
-    background:"dark",
-    color:"pink",
+    background:"light",
+    color:"blue",
     header:"static",
     font:"opensans",
     textDirection:"ltr",
