@@ -59,7 +59,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-2 col-md-2">
-                        <a href="index">
+                        <a href="#">
                             <img class="svg logo-menu d-block" style="width: 130%;" src="./assets/img/logo.png"
                                 alt="logo 8tech">
                             <img class="svg logo-menu d-none" src="./assets/img/logo.png" alt="logo 8tech">
@@ -288,7 +288,8 @@
                                                                 /mo</del></span><br>
                                                         <h4 class="m-0"><b>Now</b> <b class="c-pink">$9.99 /mo</b>
                                                         </h4>
-                                                        <a href="javascript:;" class="btn btn-default-pink-fill mt-4">See
+                                                        <a href="javascript:;"
+                                                            class="btn btn-default-pink-fill mt-4">See
                                                             Plans</a>
                                                     </div>
                                                 </div>
@@ -296,7 +297,7 @@
                                         </div>
                                     </div>
                                 </li>
-                        
+
                                 <li class="menu-item menu-item-has-children menu-last">
                                     <a class="v-stroke" href="javascript:;" data-i18n="[html]header.support"></a>
                                     <div class="sub-menu megamenu">
@@ -392,7 +393,8 @@
                                                 <div class="start-offer col-md-3">
                                                     <div class="inner">
                                                         <h4 class="title my-3">Support Premium</h4>
-                                                        <div class="inner-content"><span>Call us:</span> <b>+ (256) 783-204-665</b> HeadQuarters - No.01 - 399-0 Lorem
+                                                        <div class="inner-content"><span>Call us:</span> <b>+ (256)
+                                                                783-204-665</b> HeadQuarters - No.01 - 399-0 Lorem
                                                             Ntinda Kisaasi</div>
                                                         <a href="contact"
                                                             class="btn btn-default-yellow-fill mt-4">Contact Us</a>
@@ -426,9 +428,9 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
-                    <a href="index"><img class="svg logo-menu d-block" src="./assets/img/logo.png"
+                    <a href="{{ url('') }}"><img class="svg logo-menu d-block" src="./assets/img/logo.png"
                             alt="logo Antler"></a>
-                    <a href="index"><img class="svg logo-menu d-none" src="./assets/img/logo.png"
+                    <a href="{{ url('') }}"><img class="svg logo-menu d-none" src="./assets/img/logo.png"
                             alt="logo Antler"></a>
                 </div>
                 <div class="col-6">
@@ -448,7 +450,7 @@
                                 <a class="mergecolor" href="javascript:;" data-bs-toggle="dropdown">Home <div
                                         class="badge bg-purple">NEW</div></a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item menu-item" href="index">Home Default</a>
+                                    <a class="dropdown-item menu-item" href="#">Home Default</a>
                                     <a class="dropdown-item menu-item" href="homevideo">Home Video</a>
                                     <a class="dropdown-item menu-item" href="homeimage">Home Image</a>
                                     <a class="dropdown-item menu-item" href="homegaming">Home Gaming <div
@@ -530,8 +532,10 @@
                                     <a class="dropdown-item menu-item" href="sliders">Content Sliders</a>
                                     <a class="dropdown-item menu-item" href="configurator">Configurator</a>
                                     <a class="dropdown-item menu-item" href="404">404 Error</a>
-                                    <a class="dropdown-item menu-item" href="{{ url('/client/index.php?rp=/login') }}">Register</a>
-                                    <a class="dropdown-item menu-item" href="{{ url('/client/index.php?rp=/login') }}">Client Area</a>
+                                    <a class="dropdown-item menu-item"
+                                        href="{{ url('/client/index.php?rp=/login') }}">Register</a>
+                                    <a class="dropdown-item menu-item"
+                                        href="{{ url('/client/index.php?rp=/login') }}">Client Area</a>
                                     <a class="dropdown-item menu-item" href="elements">Elements</a>
                                     <a class="dropdown-item menu-item" href="sections">Sections</a>
                                 </div>
